@@ -1,0 +1,188 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+html {
+    margin: 1%;
+    border: 5px solid crimson;
+}
+
+body{
+    font-size: 62.5;
+    box-sizing: border-box;
+}
+
+header {
+    border: 3px solid crimson;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876__340.jpg');
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: crimson;
+    height: 16rem;
+}
+
+.header-nav{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 11rem;
+}
+
+main{
+    background-color: wheat;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    padding: 15rem;    
+}
+
+.profile-pic{
+    width: 18rem;
+    border: 0.7rem solid crimson;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+
+.intro-section{
+    justify-content: flex-start;
+    padding-left: 10%;
+    margin-right: 5rem;
+    line-height: 3rem;
+    color: crimson;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+main p{
+    margin-right: 2rem;
+    font-style: italic;
+}
+
+main a{
+    text-decoration: none;
+    border: solid crimson;
+    color: white;
+    padding: .5rem;
+    background-color: crimson;
+    border-radius: 7%;
+}
+
+
+.portfolio-section1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    color: crimson;
+    font-size: 1.5rem;
+}
+
+.portfolio-section2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673__340.jpg');
+    color: crimson;
+    font-size: 1.5rem;
+}
+
+footer {
+    opacity: 87%;
+    padding-top: 2rem;
+    height: 10rem;
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406__340.jpg');
+}
+
+footer a{
+    text-decoration: none;
+    border: solid crimson;
+    color: white;
+    padding: .5rem;
+    background-color: crimson;
+    border-radius: 7%;
+}
+
+footer p{
+    color: white;
+    background-color:crimson;
+}
+
+#pic2 {
+    border: 5px solid crimson;
+    width: 10rem;
+    }
+
+#pic3{
+    border: 5px solid crimson;
+    width: 10rem;
+    }
+
+#pic4{
+    border: 5px solid crimson;
+    width: 10rem;
+}
+
+#pic5{
+    border: 5px solid crimson;
+    width: 10rem;
+}
+
+
+
