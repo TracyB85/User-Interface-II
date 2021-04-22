@@ -55,36 +55,57 @@ body{
 }
 
 header {
-    border: 3px solid crimson;
-    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876__340.jpg');
-    padding-left: 10px;
-    padding-bottom: 10px;
-    color: crimson;
-    height: 16rem;
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/09/09/17/desktop-1245714__480.jpg');
+    color:rgb(182, 136, 182);
+    height: 20rem;
+    border: .25rem solid  rgb(182, 136, 182);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .header-nav{
-    display: flex;
-    align-items: flex-end;
-    padding-top: 11rem;
+    background-color: lavender;
+    padding: .5rem;
+    border: .25rem solid  rgb(182, 136, 182);
+    flex-direction: column;
+    align-content: center;
+}
+
+h1{font-size: 2.5rem;
+   color: rgb(182, 119, 182);   
+}
+
+header button{
+    background-color: rgb(158, 201, 186);
+    padding: .5rem;
+    color: rgb(168, 105, 168);
+    border-radius: .5rem;
+    text-align: center;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+    border:  .25rem solid  rgb(182, 136, 182);
+    
 }
 
 main{
-    background-color: wheat;
+    border-color: rgb(182, 136, 182);
+    background-color: lavender;
 
 }
 
 .middle-content{
-    border: dotted 1rem purple; 
     display:flex;
     justify-content: center;
     align-items:center;
     max-width: auto;
-    padding: rem;
+    padding: 10rem;
+    }
 
-}.profile-pic {
-    border: 0.7rem solid crimson;
-    width: 10rem;
+.profile-pic {
+    border: 1.5rem solid rgb(182, 136, 182);
+    width: 15rem;
+    border-radius: 100%;
 }
 
 .bio-section{
@@ -109,19 +130,13 @@ main a{
     border-radius: 7%;
 }
 
-
-h1{
-    
-}
-
-
-
 .portfolio-section1{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
     color: crimson;
+    background-color: rgb(133, 202, 179);
     font-size: 1.5rem;
 }
 
@@ -140,7 +155,7 @@ footer {
     padding-top: 2rem;
     height: 10rem;
     text-align: center;
-    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406__340.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876__340.jpg');
 }
 
 footer a{
