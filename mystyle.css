@@ -57,7 +57,7 @@ body{
 header {
     background-image: url('https://cdn.pixabay.com/photo/2016/03/09/09/17/desktop-1245714__480.jpg');
     color:rgb(182, 136, 182);
-    height: 20rem;
+    height: 25rem;
     border: .25rem solid  rgb(182, 136, 182);
     display: flex;
     justify-content: flex-start;
@@ -65,26 +65,35 @@ header {
 }
 
 .header-nav{
-    background-color: lavender;
-    padding: .5rem;
-    border: .25rem solid  rgb(182, 136, 182);
+    background-color: rgb(182, 136, 182);
+    border: .25rem solid lavender (230, 230, 250);
     flex-direction: column;
     align-content: center;
 }
 
-h1{font-size: 2.5rem;
-   color: rgb(182, 119, 182);   
+h1{ font-size: 3.0rem;
+    max-width: 10rem;
+    
+    flex-direction: row;
+
+    color: indianred;
+    padding-bottom: 1.5rem;   
+}
+
+h2{font-size: 2rem;
+   padding-bottom: 2rem; 
+
 }
 
 header button{
-    background-color: rgb(158, 201, 186);
+    color: lavender;
     padding: .5rem;
-    color: rgb(168, 105, 168);
+    background-color: rgb(182, 136, 182);
     border-radius: .5rem;
     text-align: center;
     font-size:medium;
     font-family: Arial, Helvetica, sans-serif;
-    border:  .25rem solid  rgb(182, 136, 182);
+    border:  .125rem solid  rgb(230, 230, 250);
     
 }
 
@@ -95,38 +104,39 @@ main{
 }
 
 .middle-content{
-    display:flex;
+    padding: 5rem;
+    display: flex;
     justify-content: center;
-    align-items:center;
-    max-width: auto;
-    padding: 10rem;
-    }
+    align-items: inherit;    
+}
 
 .profile-pic {
     border: 1.5rem solid rgb(182, 136, 182);
-    width: 15rem;
-    border-radius: 100%;
+    width: 20rem;
+    padding: .5rem;
+    border-radius:100%;
 }
 
 .bio-section{
-    flex-direction: column;
-    justify-content: space-around;
     max-width: 25%;
-    padding-left: 2rem;
+    padding: 2rem;
+    line-height: 2rem;
+    color:solid rgb(182, 136, 182);
 }
 
 main p{
    font-style: italic;
    flex-direction: column;
+   padding-top:1.25rem;
   
 }
 
 main a{
     text-decoration: none;
-    border: solid crimson;
+    border: solid rgb(182, 136, 182);
     color: white;
-    padding: 0rem;
-    background-color: crimson;
+    padding: .725rem;
+    background-color: rgb(182, 136, 182);
     border-radius: 7%;
 }
 
@@ -135,9 +145,10 @@ main a{
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
-    color: crimson;
-    background-color: rgb(133, 202, 179);
+    color: rgb(182, 136, 182);
+    background-color: rgb(140, 196, 190);
     font-size: 1.5rem;
+    padding: 2rem;
 }
 
 .portfolio-section2{
@@ -146,51 +157,63 @@ main a{
     flex-wrap: wrap;
     text-align: center;
     background-image: url('https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673__340.jpg');
-    color: crimson;
+    color:rgb(140, 196, 190);
     font-size: 1.5rem;
+    padding: 2rem;
 }
 
 footer {
     opacity: 87%;
     padding-top: 2rem;
     height: 10rem;
+    color:rgb(140, 196, 190);
     text-align: center;
     background-image: url('https://cdn.pixabay.com/photo/2016/11/19/15/32/laptop-1839876__340.jpg');
 }
 
 footer a{
     text-decoration: none;
-    border: solid crimson;
+    border: solid rgb(182, 136, 182);
     color: white;
     padding: .5rem;
-    background-color: crimson;
+    background-color: rgb(182, 136, 182);
     border-radius: 7%;
 }
 
 footer p{
     color: white;
-    background-color:crimson;
+    background-color:rgb(182, 136, 182);
 }
 
-#pic2 {
-    border: 5px solid crimson;
+#pic1 {
+    border: .7rem solid rgb(182, 136, 182);
+    width: 10rem;
+    }
+
+#pic2{
+    border: .7rem solid rgb(182, 136, 182);
     width: 10rem;
     }
 
 #pic3{
-    border: 5px solid crimson;
+    border: .7rem solid rgb(182, 136, 182);
+    width: 10rem;
+}
+
+#pic4{
+    border: .7rem solid rgb(182, 136, 182);
+    width: 10rem;
+}
+
+#pic5 {
+    border: .7rem solid rgb(182, 136, 182);
     width: 10rem;
     }
 
-#pic4{
-    border: 5px solid crimson;
+#pic6{
+    border: .7rem solid rgb(182, 136, 182);
     width: 10rem;
-}
-
-#pic5{
-    border: 5px solid crimson;
-    width: 10rem;
-}
+    }
 
 
 
