@@ -47,13 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
-html {
-    margin: 1%;
-    border: 5px solid crimson;
-}
+/*css reset^^^*/
 
 body{
     font-size: 62.5;
@@ -77,55 +71,54 @@ header {
 
 main{
     background-color: wheat;
+
 }
 
-.flex-container{
-    display: flex;
-    align-items: center;
-    padding: 15rem;    
-}
+.middle-content{
+    border: dotted 1rem purple; 
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    max-width: auto;
+    padding: rem;
 
-.profile-pic{
-    width: 18rem;
+}.profile-pic {
     border: 0.7rem solid crimson;
-    margin-left: 5rem;
-    margin-bottom: 5rem;
+    width: 10rem;
 }
 
-.intro-section{
-    justify-content: flex-start;
-    padding-left: 10%;
-    margin-right: 5rem;
-    line-height: 3rem;
-    color: crimson;
-}
-
-h1{
-    font-size: 3rem;
-}
-
-h2{
-    font-size: 3rem;
+.bio-section{
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 25%;
+    padding-left: 2rem;
 }
 
 main p{
-    margin-right: 2rem;
-    font-style: italic;
+   font-style: italic;
+   flex-direction: column;
+  
 }
 
 main a{
     text-decoration: none;
     border: solid crimson;
     color: white;
-    padding: .5rem;
+    padding: 0rem;
     background-color: crimson;
     border-radius: 7%;
 }
 
 
+h1{
+    
+}
+
+
+
 .portfolio-section1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
     color: crimson;
@@ -134,7 +127,7 @@ main a{
 
 .portfolio-section2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
     background-image: url('https://cdn.pixabay.com/photo/2015/01/09/02/45/laptop-593673__340.jpg');
