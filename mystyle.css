@@ -189,8 +189,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  t
-}
+  }
 
 .profile-pic {
   border: 1rem solid rgb(182, 136, 182);
@@ -310,7 +309,7 @@ footer p {
       border: .5rem solid rgb(182, 136, 182);
       padding: .25rem;
     }
-  }
+  
 
   header button {
     color: lavender;
@@ -318,9 +317,9 @@ footer p {
     font-size: small;
    
   }
-} 
 
-@media(min-width: 768px){
+
+/*@media(min-width: 768px){
     { 
 
 
